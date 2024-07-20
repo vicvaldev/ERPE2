@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ERPE2.Context\ERPE2.Context.csproj" />
+      <ProjectReference Include="..\ERPE2.CrossLogic\ERPE2.CrossLogic.csproj" />
+      <ProjectReference Include="..\ERPE2.Dto\ERPE2.Dto.csproj" />
+    </ItemGroup>
+
+</Project>
