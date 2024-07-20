@@ -22,6 +22,7 @@ public class Startup
         services.AddScoped<IRolRepository, RolRepository>();
         services.AddScoped<IColorRepository, ColorRepository>();
         services.AddScoped<ICaseTypeRepository, CaseTypeRepository>();
+        services.AddScoped<IBrandRepository, BrandRepository>();
     }
 
     private static void InitLogic(IServiceCollection services)
@@ -30,5 +31,6 @@ public class Startup
         services.AddScoped<ILoginLogic, LoginLogic>();
         services.AddScoped<IColorLogic, ColorLogic>();
         services.AddScoped<ICaseTypeLogic, CaseTypeLogic>();
+        services.AddScoped<IBrandLogic, BrandLogic>();
     }
 }
